@@ -1,0 +1,37 @@
+[{
+      "comuna": "las condes",
+      "poblacion": 294838,
+      "viviendas": 82099,
+      "pobreza": 2.3
+   },
+   {
+      "comuna": "lo espejo",
+      "poblacion": 98804,
+      "viviendas": 24896,
+      "pobreza": 20.1
+   },
+   {
+        "comuna": "nunoa",
+      "poblacion": 208237,
+      "viviendas": 54692,
+      "pobreza": 2.9
+   },
+   {
+      "comuna": "renca",
+      "poblacion": 147151,
+      "viviendas": 33451,
+      "pobreza": 19.2
+   },
+   {
+      "comuna": "san bernardo",
+      "poblacion": 297262,
+      "viviendas": 60723,
+      "pobreza": 20.9
+   },
+   {
+      "comuna": "san miguel",
+      "poblacion": 107954,
+      "viviendas": 22655,
+      "pobreza": 2.5
+   }
+]

@@ -10,16 +10,23 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
 <script>
+    
+var comunas;
+    
+    function preload(){comunas=loadTable("https://raw.githubusercontent.com/maripon/Entre2772018/gh-pages/csv/comunas.csv","csv", "header")}
+    
 function setup(){
   var canvas = createCanvas(windowWidth,500);
   canvas.position(0,0)
   noStroke();
   smooth();
+    print(comunas.get(0,0));
 }
 function draw(){
   background(200,0,0);
   fill(255)
   ellipse(width/2, height/2, height/4, height/4);
+    text(comunas.get(0,0),20,20);
 } 
 function windowResized() {
   resizeCanvas(windowWidth, 500);
